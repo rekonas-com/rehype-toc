@@ -1,4 +1,7 @@
-# Table of Contents plugin for Rehype
+# This fork
+This is a fork of `rehype-toc` that allows the additional "replace" option to return only the toc without the content of the original node.
+
+## Table of Contents plugin for Rehype
 A [rehype](https://github.com/rehypejs/rehype) plugin that adds a table of contents (TOC) to the page
 
 [![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/rehype-toc/actions)
