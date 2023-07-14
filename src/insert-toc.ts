@@ -30,6 +30,10 @@ export function insertTOC(toc: Node, target: HtmlElementNode, parent: HtmlElemen
       parent.children!.splice(childIndex + 1, 0, toc);
       break;
 
+    case "replace":
+      parent.children = [toc];
+      break;
+
     default:
       throw new Error(`Invalid table-of-contents position: ${position}`);
   }
